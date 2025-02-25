@@ -1,0 +1,52 @@
+.educacion {
+    padding: 4% 12%;
+}
+
+.educacion_titulo {
+    font-size: 2rem;
+    font-family: var(--fuente-krona);
+    color: var(--color-secundario);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.educacion_lista {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Mayor separación entre ítems */
+}
+
+.educacion_item {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-hover);
+    padding: 15px; /* Más espacio dentro del ítem */
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px; /* Aumenta el tamaño de cada ítem */
+    gap: 20px;
+}
+
+.educacion_item img {
+    width: 50px;
+    height: 50px;
+}
+
+.educacion_item div {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Hace que el contenido dentro del div ocupe más espacio */
+}
+
+.educacion_item strong {
+    font-size: 1.5rem; /* Aumenta el tamaño del texto */
+    color: var(--color-terciario);
+}
+
+.educacion_item p {
+    font-size: 1.2rem;
+    color: var(--color-secundario);
+    text-align: justify; /* Justificación del texto */
+}
